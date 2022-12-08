@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="lol.dbms.*;" %>    
+<%
+String id = request.getParameter("userid");
+String pw = request.getParameter("userpw");
+
+DBManager db = new DBManager();
+%>
+<script>
+	window.onload = function()
+	{
+		document.location="../main/index.jsp";
+	}
+</script>

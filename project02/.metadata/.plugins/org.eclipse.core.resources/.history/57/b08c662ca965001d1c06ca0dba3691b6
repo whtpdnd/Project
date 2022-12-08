@@ -1,0 +1,17 @@
+package util;
+import java.time.LocalDate;
+public class CalAge 
+{
+	public String DoCal(String value)
+	{
+		value.substring(3);
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		String age = "19970517";
+
+	}
+
+}

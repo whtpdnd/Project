@@ -1,0 +1,14 @@
+package util;
+
+public class CalAge 
+{
+	public String cal(String value)
+	{
+		
+	}
+}
+
+
+
+
+String age = "19970517";

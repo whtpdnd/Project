@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>챔피언 삭제</title>
+		<link rel="stylesheet" href="css/popupstyle.css"/>
+	</head>
+	<body>
+	<script>
+		window.onload = function()
+		{
+			document.getElementById("name").focus();
+		}
+		function DoDelete()
+		{
+			cham = document.getElementById("name").value;
+			if(cham == "")
+			{
+				alert("챔피언 이름이 입력되지 않았습니다");
+				return;
+			}	
+			if(cham == "이즈리얼")
+			{
+				alert("등록되지 않은 챔피언 이름입니다");
+				return false;
+			}	
+			alert("입력한 챔피언'" + cham +"'을 삭제합니다");
+			alert("삭제 되었습니다");
+			window.close();
+		}
+	</script>
+		<form id="cp">
+			<div align="center">
+				삭제할챔피언 이름을 입력하세요
+				<br>
+				<input type="text" id="name" value=""> <input type="button" value="삭제" onclick="DoDelete();">
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "EUC-KR";
+.head
+{
+	position: relative;
+    width: 1200px;
+    /*min-width:1048px;*/
+    height: 200px;
+    left:20%;
+    /*border: 3px solid red;*/
+}
+.body
+{
+	height: 800px;
+	background-color:green;
+}
+.tail
+{
+	
+	height: 200px;
+    text-align:center;
+   /* border: 3px solid gray;*/
+}

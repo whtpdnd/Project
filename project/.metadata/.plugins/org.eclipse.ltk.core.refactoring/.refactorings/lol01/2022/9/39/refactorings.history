@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;lol01&apos;&#x0D;&#x0A;- Original project: &apos;lol01&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     cpinfo.jsp.mine&#x0D;&#x0A;     cpinfo.jsp.r100&#x0D;&#x0A;     cpinfo.jsp.r98" description="Delete elements" element1="WebContent/champion/cpinfo.jsp.mine" element2="WebContent/champion/cpinfo.jsp.r100" element3="WebContent/champion/cpinfo.jsp.r98" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1663921584217" subPackages="false" version="1.0"/>
+</session>

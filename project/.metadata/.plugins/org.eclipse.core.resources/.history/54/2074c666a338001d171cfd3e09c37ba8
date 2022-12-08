@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>비밀번호 변경</title>
+		<link rel="stylesheet" href="css/popupstyle.css"/>
+	</head>
+	<body>
+		<form id="upwpassword"method="post" action="upwmodifyok.html">
+			<table>
+				<tr>
+					<th>비밀번호 변경</th>
+				</tr>
+				<tr>
+					<td>새로운 비밀번호: <input type="password"></td>
+				</tr>
+				<tr>
+					<td>새로운 비밀번호 확인: <input type="password"></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="upwmodifyok.html">수정</a>&nbsp; <a href="uinfomodify.html">취소</a></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

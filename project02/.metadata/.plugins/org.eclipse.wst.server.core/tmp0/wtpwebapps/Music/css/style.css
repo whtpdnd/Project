@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+.header
+{
+	margin : 0;
+	padding: 0;
+	position: relative;
+    width: 1080px;
+    min-width: 1048px;
+    height: 192px;
+}
+.button
+{
+	position: relative;
+	left:112%;
+	bottom:34%;
+}
+.login
+{
+	position: relative;
+	left:95%;
+}
+.logo
+{
+	position: relative;
+}
+.body
+{
+	position: relative;
+    display: inline-block;
+    display: block;
+    width: 100%;
+    min-height: 800px;
+}
+.tail
+{
+	min-height: 204px;
+    padding: 0 20px;
+}
+.serch
+{
+	position: relative;
+	right:-8%;
+	bottom:28%;
+}

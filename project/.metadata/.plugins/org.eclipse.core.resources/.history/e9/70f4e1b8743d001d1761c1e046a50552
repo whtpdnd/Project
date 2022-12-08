@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="lol.dbms.*;" %>    
+<script>
+	window.onload = function()
+	{
+		document.location="../main/index.jsp";
+	}
+</script>

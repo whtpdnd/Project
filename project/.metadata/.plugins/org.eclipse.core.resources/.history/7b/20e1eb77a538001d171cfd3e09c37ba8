@@ -1,0 +1,159 @@
+@charset "EUC-KR";
+
+
+/*회원정보 수정*/
+.uinfo_a
+{
+	 background-color:#E6E5E5;
+}
+.uinfo_a table
+{
+	border:#404040;
+}
+.uinfo_a th
+{
+	padding:12px;
+	color:red;
+	font-size:20px;
+}
+
+.uinfo_a td
+{
+	padding:4px;
+	color:#030749;
+}
+.uinfo_a td a
+{
+	padding: 3px 3px;
+	color:#ffffff;
+	font-size:16px;
+ 	background-color: #060A41;
+	border-radius:3px 3px 3px 3px;
+	text-decoration: none;
+}
+.uinfo_a td a:hover
+{
+	background-color:#9DAED0;
+}
+input[type=text]
+{
+	
+}
+
+
+/* cpinfo */
+
+/*cpadd 챔피언 수정*/
+.cpadd
+{
+	background-color:white;
+}
+.cpaddlist tr td
+{
+	font-size:15px;
+	color:#070A3C;
+}
+
+#cpname
+{
+	width:30%;
+	padding:5px 5px;
+	margin: 3px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #CBCFD8;
+	color: olive;
+}
+#cpename
+{
+	width:30%;
+	padding:5px 5px;
+	margin: 3px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #CBCFD8;
+	color: olive;
+}
+
+#cpinfo
+{
+	width:30%;
+	padding:5px 5px;
+	margin: 3px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #CBCFD8;
+	color: olive;
+}
+#cpstory
+{
+	width:30%;
+	padding:5px 5px;
+	margin: 3px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #CBCFD8;
+	color: olive;
+}
+
+/*cpdelete 챔피언삭제*/
+#cp
+{
+	border: 4px dashed #bcbcbc;
+	align:center;
+	width : 450px;
+	height : 150px;
+	padding-top : 80px;
+}
+.cpdelete
+{
+	color:#04163A;
+	font-size:18px;
+}
+.cpdelete #button
+{
+	padding: 3px 3px;
+	color:#ffffff;
+	font-size:16px;
+ 	background-color: #060A41;
+	border-radius:3px 3px 3px 3px;
+	text-decoration: none;
+}
+}
+/* 비밀번호 변경*/
+
+#upwpassword
+{
+	
+	border: 4px dashed #bcbcbc;
+	width : 450px;
+	height : 200px;
+	padding-top : 60px;
+	padding-left : 30px;	
+}
+#upm_button a
+{
+	text-decoration: none;	
+	padding: 2px 2px;
+	size:10px;
+	border-radius:3px 3px 3px 3px;
+	font-size:16px;
+	font-weight:bold;
+	color:#ffffff;
+	background-color: #060A41;
+	margin-left:10px;
+}
+#upm_button a:hover
+{
+	background-color:#77070B;
+}
+
+/*탈퇴*/
+#check
+{
+	border: 4px dashed #bcbcbc;
+	width : 450px;
+	height : 250px;
+	padding-top : 80px;
+		
+}

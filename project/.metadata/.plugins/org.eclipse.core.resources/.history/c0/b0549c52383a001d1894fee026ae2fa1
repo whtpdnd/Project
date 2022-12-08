@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>회원탈퇴</title>	
+	</head>
+	<body>
+	<script>
+		function DoQuit()
+		{
+			alert("탈퇴가 완료 되었습니다");
+			window.close();
+			return true;
+		}
+		
+	</script>
+	<form method="post">
+		<table style="width:480px; height:180px;" border="0">
+			<tr>
+				<td align="center"><br>회원 탈퇴를 하시겠습니까?<br></td>
+			</tr>
+			<tr>
+				<td align="center" valign="top"><a href="javascript:DoQuit();">예</a> <a href="javascript:window.close();">아니오</a>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>

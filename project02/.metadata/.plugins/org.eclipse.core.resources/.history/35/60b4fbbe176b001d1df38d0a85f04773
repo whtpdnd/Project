@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>노래 추천</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<h1><a href="#">로고</a></h1>
+			</div>
+			<div class="serch">
+				<input type="text">
+				<input type="button" value="검색">
+			</div>
+			<div class="login">
+				<input type="text" placeholder="아이디">
+				<br>
+				<input type="password" placeholder="비밀번호">
+			</div>
+			<div class="button">
+				<input type="button" value="로그인" style="height:50px;">
+				<a href="#">회원가입</a>
+			</div>
+		</div>
+		<hr>
+		<div class="body">
+			d
+		</div>
+		<hr>
+		<div class="tail">
+			d
+		</div>
+	</body>
+</html>

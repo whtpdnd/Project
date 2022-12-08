@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ include file = "../include/head.jsp" %>
+		<div class="body">
+			<hr>
+			<div class="list">
+				<div class="playlist">
+					<a href="platlistinfo.jsp"><img src="./img/imsi_img.jpg" style="width: 220px; height: 250px;">
+					</a><div class="genre"><a href="platlistinfo.jsp">오늘같이 싱그러운 날엔?<br></a>인디/어쿠스틱</div></div>
+				<div class="playlist">
+					<a href="platlistinfo.jsp"><img src="./img/imsi_img.jpg" style="width: 220px; height: 250px;">
+					</a><div class="genre"><a href="platlistinfo.jsp">신나는 케이팝과 함께 자존감 끌어 올↗려↗↗<br></a>댄스/아이돌</div>
+				</div>
+				<div class="playlist">
+					<a href="platlistinfo.jsp"><img src="./img/imsi_img.jpg" style="width: 220px; height: 250px;">
+					</a><div class="genre"><a href="platlistinfo.jsp">마음이 쉬고 싶을 때 듣는 위로의 노래<br></a>어쿠스틱/발라드</div>
+				</div>
+				<div class="playlist">
+					<a href="playlistinfo.jsp"><img src="./img/imsi_img.jpg" style="width: 220px; height: 250px;">
+					</a><div class="genre"><a href="platlistinfo.jsp">운전은 네가 해, 음악은 내가 틀게<br></a>아이돌/힙합</div>
+				</div>
+			</div>
+			<br>
+		</div>
+		<div class="body2">
+			<table border="0" class="music_index">
+				<tr>
+					<th class="tbl" width="80px" colspan="2">NO</th>
+					<th class="tbl" width="400px">제목</th>
+					<th class="tbl" width="200px">앨범명</th>
+					<th class="tbl" width="80px" align="left">가수</th>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px">1</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/music_img.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">내가 저지른 사랑</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">I'M</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">임창정</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >2</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/ive.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">After LIKE</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">After LIKE</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">IVE (아이브)</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >3</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/zico.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">새삥 (Prod. ZICO) (Feat. 호미들)</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">스트릿 맨 파이터(SMF) Original Vol.3 (계급미션)</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">지코 (ZICO)</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >4</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/lovedive.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">LOVE DIVE</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">LOVE DIVE</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">IVE (아이브)</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >5</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/10cm.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">딱 10CM만</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">딱 10CM만</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">10CM, BIG Naughty (서동현)</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >6</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/tomboy.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">TOMBOY</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">I NEVER DIE</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">(여자)아이들</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >7</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/wsg.jpg"></a></td>
+		 			<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">그때 그 순간 그대로 (그그그)</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">WSG워너비 1집</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">WSG워너비 (가야G)</div></td>
+				</tr>
+				<tr>
+					<td class="tbl" width="80px" >8</td>
+					<td class="tbl" width="80px" ><a href="musicinfo.jsp"><img width="60" height="60" src="./img/mellomas.jpg"></a></td>
+					<td class="tbl" width="400px" align="justify"><a href="musicinfo.jsp" class="title">사랑인가 봐</a></td>
+					<td class="tbl" width="200px" align="justify"><div class="div_album">사랑인가 봐 (사내맞선 OST 스페셜 트랙)</div></td>
+					<td class="tbl" width="80px" align="justify"><div class="div_singer">멜로망스</div></td>
+				</tr>
+			</table>
+		</div>
+		<%@ include file = "../include/tail.jsp" %>
+	</body>
+</html>>

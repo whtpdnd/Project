@@ -1,0 +1,28 @@
+package util;
+import java.time.LocalDate;
+public class CalAge 
+{
+	
+	public String DoCal(String value)
+	{
+		LocalDate now = LocalDate.now();
+		value.substring(3);
+		Integer.parseInt(value);
+		String year = (String) now.toString().subSequence(0,4);
+		Integer.parseInt(year);
+		
+		int age = int(year) - int(value);
+		
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		String age = "19970517";
+		LocalDate now = LocalDate.now();
+		String year = (String) now.toString().subSequence(0,4);
+		
+		System.out.print(year);
+	}
+
+}

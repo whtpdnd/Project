@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ include file = "../include/head.jsp" %>
+		<div class="musicbody">
+			<hr>
+			<h2>곡 정보</h2>
+			<div class="info_body">
+				<div class="music_img">
+					<img width="282" height="282" src="./img/mellomas.jpg">
+				</div>
+				<h2>사랑인가봐</h2><br>
+					<b style="color:#00cd3c;">멜로망스</b><br>
+				<table class="music_info" style="border-spacing: 0 10px;">
+					<tr>
+						<td>앨범</td>
+						<td>사랑인가 봐 (사내맞선 OST 스페셜 트랙)</td>
+					</tr>
+					<tr>
+						<td>발매일</td>
+						<td>&nbsp;2022.02.18</td>
+					</tr>
+					<tr>
+						<td>장르</td>
+						<td>발라드</td>
+					</tr>
+				</table>
+				<div class="play">
+					<audio src="Song/멜로망스-01-사랑인가 봐-사랑인가 봐 (사내맞선 OST 스페셜 트-192.mp3" controls >
+						
+					</audio>
+				</div>
+				<div class="similar_div">
+					<h2 style="">유사한 노래</h2>
+					<a href="musicinfo.jsp"><img width="72" height="72" src="./img/10cm-grdes.jpg"></a>
+					<div class="song_info">
+						<b><a href="musicinfo.jsp">이 소설의 끝을 다시 써보려 해</a></b>
+						<br>
+						<font size="2px">가수 : 한동근</font>
+						<br>
+						<font size="2px">장르 : 발라드</font>
+					</div>
+					<div class="similar_border"></div>
+					<a href="musicinfo.jsp"><img width="72" height="72" src="./img/10cm-grdes.jpg"></a>
+					<div class="song_info">
+						<b><a href="musicinfo.jsp">이 소설의 끝을 다시 써보려 해</a></b>
+						<br>
+						<font size="2px">가수 : 한동근</font>
+						<br>
+						<font size="2px">장르 : 발라드</font>
+					</div>
+					<div class="similar_border"></div>
+					<a href="musicinfo.jsp"><img width="72" height="72" src="./img/10cm-grdes.jpg"></a>
+					<div class="song_info">
+						<b><a href="musicinfo.jsp">이 소설의 끝을 다시 써보려 해</a></b>
+						<br>
+						<font size="2px">가수 : 한동근</font>
+						<br>
+						<font size="2px">장르 : 발라드</font>
+					</div>
+					<div></div>
+				</div>
+			</div>
+				<a href="#" class="hover"><b>플레이리스트에 넣기</b></a>
+			<div class="lyricsbox">
+				<h2 style="position: relative; left: 25%;">가사</h2>
+				<hr class="lyricsline">
+				<div class="lyrics">
+					너와 함께 하고 싶은 일들을<br>
+					상상하는 게<br>
+					요즘 내 일상이 되고<br>
+					너의 즐거워하는 모습을 보고 있으면<br>
+					자연스레 따라 웃고 있는 걸<br>
+					너의 행동에 설레어하고 뒤척이다가<br>
+					지새운 밤이 많아지는데<br>
+					이건 누가 봐도 사랑일 텐데<br>
+					종일 함께면 질릴 텐데<br>
+					나 돌아서도 온통 너인 건<br>
+					아무래도 사랑인가 봐<br>
+					점점 너와 하고 싶은 일들 생각하면서<br>
+					하룰 보낸 날이 많아지는데<br>
+					이건 누가 봐도 사랑일 텐데<br>
+					종일 함께면 질릴 텐데<br>
+					나 돌아서도 온통 너인 건<br>
+					아무래도 사랑인가 봐<br>
+					너의 행복해하는 모습을 보고 있으면<br>
+					나도 모르게 따라 웃는데<br>
+					이 정도면 알아줄 만하잖아<br>
+					너도 용기 낼만 하잖아<br>
+					나만 이런 게 아니라면<br>
+					우리 만나볼 만하잖아<br>
+					아무래도 사랑인가 봐<br>
+				</div>
+			</div>
+		</div>
+		<div class="footer1">
+	<hr>
+		명칭: 주식회사 이젠 | 등록번호: 전북 소4048 | 등록연월일: 2022. 11. 24 | 제호: Music<br>
+			발행: C team | 발행소: 전라북도 전주시 덕진구 금암동 이젠컴퓨터학원 4층 407호<br> Music의
+			콘텐츠는 저작권법의 보호를 받으므로, 무단 전재, 복사, 배포 등을 금합니다.<br>
+</div>
+	</body>
+</html>

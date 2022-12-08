@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>노래 추천</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<h2><a href="#">로고</a></h2>
+			</div>
+		</div>
+		<hr>
+		<div class="body">
+			d
+		</div>
+		<hr>
+		<div class="tail">
+			d
+		</div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="lol.dbms.*;" %>    
+<%
+String id = request.getParameter("userid");
+String pw = request.getParameter("userpw");
+
+DBManager db = new DBManager();
+
+db.DBOpen();
+
+String sql = "";
+sql += "select * from user ";
+sql += "where uid = '" +id +"' ";
+sql += "and upw = md5 '" +upw +"' ";
+%>
+<script>
+	window.onload = function()
+	{
+		document.location="../main/index.jsp";
+	}
+</script>
